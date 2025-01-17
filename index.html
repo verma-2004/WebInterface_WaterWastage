@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="with=device-width,initial-scale=1.0">
+  <title>WATER WASTAGE</title>
+  <link rel="stylesheet" href="che.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Verdana, sans-serif;
+    }
+
+    .mySlides {
+      display: none;
+    }
+
+    img {
+      vertical-align: middle;
+    }
+
+    /* Slideshow container */
+    .slideshow-container {
+      width: 1200px;
+      position: relative;
+      margin: auto;
+    }
+
+
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+
+    /* The dots/bullets/indicators */
+    .dot {
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+
+    .active {
+      background-color: #717171;
+    }
+
+    /* Fading animation */
+    .fade {
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+
+    @keyframes fade {
+      from {
+        opacity: .4
+      }
+
+      to {
+        opacity: 1
+      }
+    }
+
+    /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 300px) {
+      .text {
+        font-size: 11px
+      }
+    }
+  </style>
+</head>
+
+<body style="background-image: url(image/cloud.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;">
+
+  <section class="header" style="background:#3d3d51">
+    <nav>
+      <h1 style=" font-size: 65px;font-weight: 400;color: rgb(212, 150, 55);">WATER WASTAGE</h1>
+      <div class="nav-links">
+        <ul>
+          <li><a href="">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#st">STATS</a></li>
+          <li><a href="#contactus">CONTACT US</a></li>
+        </ul>
+      </div>
+    </nav>
+  </section>
+
+  <br>
+  <marquee style="color: rgb(70, 8, 44);transition: 1s;" scrollamount="8">
+    <h2> “Water is life's matter and matrix, mother and medium. There is no life without water.” – Albert Szent-Gyorgyi
+    </h2>
+  </marquee>
+  <br>
+
+
+  <section class="tb">
+    <div class="text-box">
+      <center>
+        <h1 style="font-size: 55px;color: rgb(161, 32, 64);text-shadow: 4px 4px 8px red;">WATER<br>THE DRIVING FORCE OF
+          ALL NATURE</h1>
+        <p style="font-size: 22px;color: rgb(161, 32, 64);">Water wastage refers to the unnecessary or excessive use of
+          water, leading to the depletion of water resources.<br> Water is an essential resource that is vital for human
+          survival and sustains various life forms on the planet.<br> However, the world is facing a severe water crisis
+          due to increasing demand, population growth, climate change, and inefficient water usage.</p>
+      </center>
+    </div>
+  </section>
+
+  <br>
+  <br>
+
+  <section class="ss">
+    <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img
+          src="https://as2.ftcdn.net/v2/jpg/10/21/01/17/1000_F_1021011750_Md3gTIjjoGb0YBfCP7Xq747ndis0oDlb.jpg"
+          style="width:100%;height: 400px">
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img
+          src="https://as1.ftcdn.net/v2/jpg/09/84/16/10/1000_F_984161088_7gQQdRMiKWkbFT2B6fvFLJ5gWhXcOjp5.jpg"
+          style="width:100%;height: 400px">
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img
+          src="https://as2.ftcdn.net/v2/jpg/11/43/94/01/1000_F_1143940154_3GoHDKkWzfh8pr8rLRgcK22cAoN77BUs.jpg"
+          style="width:100%;height: 400px">
+      </div>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+
+    <script>
+      let slideIndex = 0;
+      showSlides();
+
+      function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+        setTimeout(showSlides, 4000); // Change image every 2 seconds
+      }
+    </script>
+  </section>
+
+  <br>
+
+
+  <section id="about" style="background: #fff;">
+    <br>
+    <div class="row">
+      <div class="course-col">
+        <h3>CAUSES</h3>
+        <nav>
+          <ul>
+            <li>
+              Leaking taps, pipes, and toilets: A leaking tap can waste up to 15 liters of water per day, while a
+              leaking toilet can waste up to 200 liters per day.
+            </li><br>
+            <li>Overuse of water: People often use more water than they need to carry out daily activities like washing
+              clothes, dishes, or taking a shower.</li><br>
+            <li>Inefficient irrigation practices: Traditional irrigation methods are often wasteful and can lead to
+              excessive use of water in agricultural practices.</li><br>
+            <li>Watering lawns during the day: Watering lawns during the day when the sun is high can lead to excessive
+              evaporation and water wastage.</li><br>
+            <li>Leaving taps running: Leaving taps running while brushing teeth, shaving, or washing hands is a
+              significant cause of water wastage.</li><br>
+            <li>Using old and inefficient appliances: Old and inefficient appliances like washing machines, dishwashers,
+              and showerheads can waste a lot of water.</li><br>
+            <li>Ignoring water leaks: Ignoring water leaks can result in excessive water wastage, and the problem can go
+              unnoticed for a long time.</li><br>
+            <li>Washing cars using a hosepipe: Washing cars using a hosepipe can waste a lot of water, and it's
+              recommended to use a bucket and sponge instead.</li><br>
+            <li>Using excessive water for swimming pools: Filling and refilling swimming pools with excessive amounts of
+              water can lead to water wastage.</li><br>
+            <li>Poor water management: Poor management of water resources can lead to water wastage, especially in arid
+              and semi-arid regions.</li><br>
+          </ul>
+        </nav>
+      </div>
+      <div class="course-col">
+        <h3>EFFECTS</h3>
+        <nav>
+          <ul>
+            <li>
+              Environmental degradation: Water wastage contributes to environmental degradation, as it puts unnecessary
+              strain on the natural water sources, and can lead to the depletion of water bodies.
+            </li><br>
+            <li>Water scarcity: Water wastage can lead to water scarcity, which can have severe consequences for both
+              human and animal populations. This can lead to competition for water resources, which can cause conflict
+              and social unrest.</li><br>
+            <li>Economic loss: Water wastage can cause significant economic losses, particularly in areas where water is
+              scarce. This is because water is a precious resource, and wastage can lead to increased costs for
+              businesses, farmers, and households.</li><br>
+            <li>Reduced food production: Water wastage can reduce food production, as it can lead to reduced irrigation
+              and water for crops, which can affect the overall yield and quality of food produced.</li><br>
+            <li>Drought: Water wastage can contribute to drought conditions, as it can reduce the overall water
+              availability in a region, which can have a ripple effect on the climate, rainfall patterns, and
+              vegetation.</li><br>
+            <li>Energy consumption: Water wastage can lead to increased energy consumption, as it can require more
+              energy to pump water to areas where it is needed. This can lead to increased greenhouse gas emissions and
+              contribute to climate change.</li><br>
+            <li>Water pollution: Water wastage can contribute to water pollution, as it can increase the amount of
+              wastewater and runoff in the environment, which can contain harmful chemicals and pollutants.</li><br>
+          </ul>
+        </nav>
+      </div>
+      <div class="course-col">
+        <h3>STEPS FOR REDUCING IT</h3>
+        <nav>
+          <ul>
+            <li>Fix Leaks: Inspect your plumbing system regularly and repair any leaks as soon as possible. Even a small
+              leak can waste a significant amount of water over time.</li><br>
+            <li>Install low-flow fixtures: Replace old showerheads, faucets, and toilets with low-flow models, which use
+              less water but still provide adequate water pressure.</li><br>
+            <li>Shorten shower time: Limit the time you spend in the shower to conserve water. Consider taking a shorter
+              shower or turning off the water while you are soaping up.</li><br>
+            <li>Turn off the tap when brushing your teeth: Don't let the water run while you're brushing your teeth, and
+              only turn it on when you need to rinse.</li><br>
+            <li>Water plants efficiently: Water your plants early in the morning or late in the evening when the
+              temperature is cooler to prevent evaporation. Also, use a watering can or a hose with a trigger nozzle to
+              control the amount of water you use.</li><br>
+            <li>Water your lawn and plants in the early morning or evening: Watering during the cooler parts of the day
+              reduces water loss due to evaporation.</li><br>
+            <li>Use a broom instead of a hose to clean driveways and sidewalks: Using a broom instead of a hose can save
+              a significant amount of water.</li><br>
+            <li>Only run your dishwasher and washing machine when they are full: Running full loads of laundry and
+              dishes can save water and energy.</li><br>
+            <li>Check your water meter: Monitor your water meter regularly to detect any unusual water consumption. If
+              you notice a spike in your water usage, it could indicate a leak or other issue.</li><br>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <br>
+  </section>
+
+  <br>
+  <br>
+
+  <section class="stats" id="st">
+    <h1 style="color: red;font-size: 40px;font-weight: 400;"><b>STATISTICS</b></h1>
+    <div class="row">
+      <div class="campus-col">
+        <img src="https://drinktap.org/portals/0/Images/drinktap/USGSinfographic.jpg">
+        <div class="layer">
+          <h3>DAILY WATER USAGE</h3>
+        </div>
+      </div>
+      <div class="campus-col">
+        <img src="https://static.toiimg.com/photo/msid-58912644/58912644.jpg">
+        <div class="layer">
+          <h3>AVAILABILITY OF WATER</h3>
+        </div>
+      </div>
+      <div class="campus-col">
+        <img src="https://assets.weforum.org/editor/RSXODYcvu8YjVu-9B_WPOLrhVrl0H6NXHktuTKD3_M4.png">
+        <div class="layer">
+          <h3>AREAWISE WATER USAGE</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="campus-col">
+        <img src="https://static.toiimg.com/photo/msid-58912634/58912634.jpg">
+        <div class="layer">
+          <h3>PER CAPITA WATER USAGE</h3>
+        </div>
+      </div>
+      <div class="campus-col">
+        <img
+          src="https://ohioline.osu.edu/sites/ohioline/files/imce/Agriculture_and_Natural_Resources/AEX-420-Fig1-household-water-use-2016.png">
+        <div class="layer">
+          <h3>HOUSE HOLD USAGE</h3>
+        </div>
+      </div>
+      <div class="campus-col">
+        <img
+          src="https://globalnews.ca/wp-content/uploads/2016/10/water-how-much-do-canadians-use.jpg?quality=85&strip=all">
+        <div class="layer">
+          <h3>AVERAGE DAILY USAGE</h3>
+        </div>
+      </div>
+    </div>
+    <h4 style="color: rgb(0, 0, 69);font-size: larger;font-weight: 23px;">Water wastage is a growing concern worldwide
+      due to the depletion of freshwater resources caused by population growth, industrialization, and urbanization.
+      Water is a precious natural resource that is essential for life and various economic activities. However, the
+      world faces a water crisis, and one of the leading causes is the wastage of water.
+
+      The United Nations estimates that by 2025, 1.8 billion people will be living in regions with absolute water
+      scarcity, and two-thirds of the world's population could be living under water-stressed conditions. According to
+      the World Bank, global demand for freshwater is projected to exceed supply by 40% by 2030. The World Economic
+      Forum has also listed the water crisis as the third most significant risk facing the planet, after climate change
+      and natural disasters.
+
+      In the United States, water wastage is a significant concern, with an estimated 1.7 trillion gallons of water lost
+      annually due to leaky pipes, outdated infrastructure, and inefficient water management practices. This is
+      equivalent to the annual household water usage of 11 million people. According to the Environmental Protection
+      Agency (EPA), a household can waste up to 180 gallons of water per week due to common leaks, which can add up to
+      more than 9,000 gallons of wasted water per year.
+
+      The agriculture sector is the largest consumer of water, accounting for 70% of the world's freshwater withdrawals.
+      However, irrigation systems are often inefficient, leading to water wastage. According to the Food and Agriculture
+      Organization (FAO), up to 60% of the water used for irrigation is wasted due to inefficient irrigation practices.
+
+      The industrial sector is also a significant contributor to water wastage, with water-intensive industries such as
+      mining, energy production, and manufacturing consuming vast amounts of water. The textile industry is one of the
+      most water-intensive industries, with up to 2,700 liters of water required to produce a single cotton shirt. The
+      pulp and paper industry is also a significant water user, with up to 200,000 liters of water required to produce
+      one metric ton of paper.
+
+      Water wastage also has significant economic costs. The EPA estimates that the cost of water and wastewater
+      infrastructure needs in the United States will exceed $750 billion over the next two decades. Additionally, water
+      bills for households and businesses can be significantly higher due to water wastage. In California, for example,
+      the cost of water due to leaks and other wastage problems is estimated to be $1 billion annually.
+
+      Water wastage can also have significant environmental impacts, leading to the depletion of freshwater resources,
+      the loss of aquatic habitats, and the destruction of ecosystems. The overuse of groundwater resources has led to
+      the depletion of aquifers in many regions, leading to land subsidence, reduced water availability, and increased
+      water contamination.
+
+      In conclusion, water wastage is a significant concern that has significant negative impacts on the environment,
+      economy, and society. The depletion of freshwater resources due to wastage and overuse is a growing concern
+      worldwide, and urgent action is needed to address this issue. Governments, businesses, and individuals must take
+      steps to implement efficient water management practices, education and awareness campaigns, water reuse and
+      recycling, and rainwater harvesting to reduce water wastage and ensure the sustainable use of this precious
+      natural resource.</h4>
+    <br>
+    <br>
+    <br>
+
+    <h1 style="color: red;">SUSTAINABLE DEVELOPMENT GOAL</h1><br>
+    <br>
+    <h4 style="color: rgb(0, 0, 69);font-size: larger;font-weight: 23px;">The Sustainable Development Goal that can be
+      achieved by reducing water wastage is Goal 6: Clean Water and Sanitation.
+
+      Reducing water wastage can help to conserve water resources, which is crucial for achieving clean water and
+      sanitation for all. By reducing water wastage, we can ensure that the available water resources are used
+      efficiently and sustainably, and that they are accessible to all. This can help to address water scarcity and
+      improve water quality, which are key challenges in many parts of the world.
+
+      In addition to conserving water resources, reducing water wastage can also have broader environmental and social
+      benefits. For example, it can help to reduce energy consumption, as pumping and treating water requires
+      significant amounts of energy. It can also reduce the pollution and environmental damage associated with
+      extracting, transporting, and treating water.
+
+      Overall, reducing water wastage is an important step towards achieving a sustainable future, and it can contribute
+      to several of the Sustainable Development Goals, including</h4> <br><br>
+    <h2 style="color: rgb(5, 75, 55);font-size: 32px;font-weight: 23px;text-shadow: 4px 4px 8px rgb(41, 102, 93);">Goal
+      6: Clean Water and Sanitation.</h2>
+    <br>
+    <br>
+  </section>
+
+  <marquee class="css" behavior="scroll" direction="up" style="color: rgb(167, 211, 195);background: #5e5e75;"><br>
+    <center>
+      <h1 style="color: red;">Government schemes to reduce water wastage</h1>
+    </center><br>
+    <br>
+    <br>
+
+    <p style="padding-left: 14px;">Jal Shakti Abhiyan: Launched in 2019, Jal Shakti Abhiyan is a national water
+      conservation campaign aimed at reducing water wastage and promoting water conservation practices. The campaign
+      focuses on water-stressed districts and aims to create awareness about the importance of water conservation among
+      communities.
+      <br>
+      <br>
+      Atal Bhujal Yojana: Launched in 2018, the Atal Bhujal Yojana is a central government scheme aimed at improving
+      groundwater management and reducing water wastage in water-stressed areas. The scheme aims to promote sustainable
+      groundwater management practices, such as rainwater harvesting and recharge, and enhance the capacity of local
+      communities to manage their water resources.
+      <br>
+      <br>
+      National Water Mission: Launched in 2011, the National Water Mission is a government initiative aimed at reducing
+      water wastage and promoting sustainable water use in the country. The mission aims to achieve a 20% improvement in
+      water use efficiency through various measures such as rainwater harvesting, water conservation, and water reuse.
+      <br>
+      <br>
+      Swachh Bharat Abhiyan: Launched in 2014, Swachh Bharat Abhiyan is a national cleanliness campaign aimed at
+      promoting cleanliness and hygiene across the country. The campaign includes initiatives to promote sanitation,
+      reduce water wastage, and promote water conservation practices.
+      <br>
+      <br>
+      Pradhan Mantri Krishi Sinchai Yojana: Launched in 2015, the Pradhan Mantri Krishi Sinchai Yojana is a government
+      scheme aimed at promoting efficient irrigation practices and reducing water wastage in agriculture. The scheme
+      aims to provide irrigation facilities to every farm, improve water use efficiency in agriculture, and promote
+      sustainable agriculture practices.
+    </p><br>
+  </marquee>
+
+  <br>
+  <br>
+
+  <section id="contactus">
+    <center>
+      <h1 style="color: red;font-size: 40px;font-weight: 400;"><b>CONTACT US</b></h1>
+    </center>
+    <section class="contactus">
+      <table style="width: 100%;">
+        <tr>
+          <th style="background-color: #3e3e47;" width="600" height="500">
+            <center>
+              <i class="fa fa-phone" style="font-size:36px"></i>
+              <br><br>
+              <h1 style="font-size: 25px;">0000173293</h1>
+              <br><br>
+              <i class="fa-brands fa-whatsapp" style="font-size:36px"></i>
+              <br><br>
+              <h1 style="font-size: 25px;">1176598117</h1>
+              <br><br>
+              <i class="fa-solid fa-envelope" style="font-size:36px"></i>
+              <br><br>
+              <h1 style="font-size: 25px;">csfsdvsveb8423@gmail.com</h1>
+              <br><br>
+            </center>
+          </th>
+          <th style="width: 30px;height: 500;"></th>
+          <th style="background-color: #3e3e47;" width="600" height="500">
+            <br>
+            <center><b>
+                <h1 style="color:red;font-size: 25px;">SHARE YOUR SUGGESTIONS</h1>
+              </b></center>
+            <br>
+            <br>
+            <label for="firstname"><b>First Name: </b></label><br>
+            <br>
+            <input type="text" placeholder="Enter First Name"><br>
+            <br>
+            <label for="firstname"><b>Last Name: </b></label><br>
+            <br>
+            <input type="text" placeholder="Enter Last Name"><br>
+            <br>
+            <label for="firstname"><b>Emaid Id: </b></label><br>
+            <br>
+            <input type="text" placeholder="Enter Email"><br>
+            <br>
+            <label for="firstname"><b>Suggestions: </b></label><br>
+            <br>
+            <input type="text" placeholder="Type your suggestion here" style="height:150px;"><br>
+            <br>
+            <button type="button" class="submitbtn"><a href="mailto:abhinavverma8423@gmail.com"
+                style="color:white;text-decoration: none;">SUBMIT</a></button>
+            <br>
+            <br>
+          </th>
+        </tr>
+      </table>
+
+    </section>
+  </section>
+  <br>
+  <br>
+  <footer>
+    <div class="footer-content">
+      <center>
+        <br>
+        <h1 style="color:red;font-size: 40px;font-weight: 400;"><b>THANKS FOR VISITING</b></h1>
+        <br>
+        <a href="#" class="fa-brands fa-facebook-f" style="color: white;"></a>
+        <a href="#" class="fa-brands fa-twitter" style="color: blue;"></a>
+        <a href="#" class="fa-brands fa-google" style="color: red;"></a>
+        <a href="#" class="fa-brands fa-linkedin-in" style="color: white;"></a>
+        <a href="#" class="fa-brands fa-youtube" style="color: red;"></a>
+        <a href="#" class="fa-brands fa-instagram" style="color: rgb(241, 136, 154);"></a>
+        <br>
+        <br>
+        <h1>&copy</h1>
+      </center>
+    </div>
+  </footer>
+</body>
+
+</html>
